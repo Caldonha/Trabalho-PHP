@@ -196,16 +196,3 @@ Este projeto está sob a licença MIT. Veja o arquivo `LICENSE` para mais detalh
 
 ---
 
-## 📈 Próximas Implementações
-
-- [ ] CRUD de Produtos
-- [ ] CRUD de Listas de Compras
-- [ ] Relacionamento Produto-Lista
-- [ ] Dashboard com estatísticas
-- [ ] API REST
-- [ ] Testes automatizados completos
-- [ ] Deploy automatizado
-
----
-
-*Desenvolvido com ❤️ usando Laravel*
