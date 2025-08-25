@@ -41,11 +41,10 @@ class UserController extends Controller
     {
         // valida os dados da requisição
         $data = $request->validated();
-        // atualiza o usuário
-        auth()->user()->update($data);
+        // atualiza o usuário usando o UserServices
+        $this->userServices->update(auth()->user(), $data);
         // redireciona em caso de sucesso
         return redirect()->route('user.edit')->with('success', 'Dados atualizados com sucesso!');
-
     }
 
 
